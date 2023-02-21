@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 
 const ResultsTable = () => {
   return (
-    <div class="results-table-container" id="table-container">
+    <div className="results-table-container" id="table-container">
         
     </div>
   )

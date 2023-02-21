@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 
 const AlignArea = () => {
   return (
-    <div class="align-help-container"></div>
+    <div className="align-help-container"></div>
   )
 }
 
