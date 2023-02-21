@@ -1,0 +1,57 @@
+.calculator {
+    margin: 50px;
+    width: 30%;
+    color: black;
+    background-color: #F1F6F5;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+
+}
+.heading h3 {
+    font-size: 25px;
+}
+.input-group {
+    margin: 20px 0;
+}
+
+.input-group label {
+    display: block;
+}
+
+.input-group input,
+.input-group button,
+.input-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group button {
+    background-color: #2B3467;
+    color: white;
+}
+.input-group button:hover{
+    background-color: #F1F6F5;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#initial-warning {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+#rates-warning {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+#duration-warning {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}

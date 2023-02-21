@@ -1,0 +1,26 @@
+.results {
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: #F1F6F5;
+    width: 60%;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+#message {
+    font-size: 15px;;
+    margin-bottom: 30px;
+}
+#months-message {
+    font-size: 10px;;
+    margin-top: 10px;
+    color: red;
+    visibility: hidden;
+}
+#chart-area {
+    visibility: hidden;
+}
